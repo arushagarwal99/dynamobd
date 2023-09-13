@@ -25,6 +25,7 @@ public class MetadataTableItem {
     }
 
 
+
     @DynamoDbAttribute("PK")
     @DynamoDbPartitionKey
     public String getPartitionKey() {
